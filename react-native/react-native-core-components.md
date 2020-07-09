@@ -1,5 +1,14 @@
 # React Native Core Components
 
+
+# Button
+```jsx
+<Button 
+    title=”Change Text” 
+    onPress={() => setOutputText(‘The text changed!’)}/>
+```
+
+
 ## Scroll View
 
 ```jsx
@@ -28,3 +37,4 @@ Similar to ScrollView but builds the list dynamically
     )
 }/>
 ```
+
