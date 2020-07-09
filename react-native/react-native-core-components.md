@@ -8,7 +8,6 @@
     onPress={() => setOutputText(‘The text changed!’)}/>
 ```
 
-
 ## Scroll View
 
 ```jsx
@@ -23,12 +22,13 @@
 ```
 
 ## Flat List
+
 Similar to ScrollView but builds the list dynamically
 
 ```jsx
-<FlatList 
+<FlatList
     // keyExtractor = {(item, index) => item.key}
-    data={courseGoals} 
+    data={courseGoals}
     renderItem={
     itemData => (
         <View style={styles.listItem}>
@@ -37,4 +37,3 @@ Similar to ScrollView but builds the list dynamically
     )
 }/>
 ```
-
