@@ -6,12 +6,30 @@ For official docs click [here](https://docs.python.org/3.8/library/collections.h
 ## defaultdict
 
 Implements default value if code calls non-exisiting key
-[another](../iOS/Swift/cocoapods.md)
+
 ```py
 from collections import defaultdict as dd
 
 d = dd(lambda : 0) # default value would be 0
-d['a'] # -> would return 0
+d['a'] # -> will return 0
 ```
 
-## counter
+## Counter
+
+Takes in an iterable and counts the instances of each element.
+Inherites defaultdicts' behavior of having a default value of 0.
+
+```py
+from collections import Counter
+c = Counter('Jeremy')
+c['e'] # -> will return 2 because there's two instances of 'e' in 'Jeremy'
+```
+
+## OrderedDict
+
+Dict subclass that remembers the order entries were added
+
+```py
+from collections import OrderedDict
+
+```

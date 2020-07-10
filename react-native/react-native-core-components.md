@@ -1,7 +1,9 @@
 # React Native Core Components
 
+List of react native core components
 
-# Button
+## Button
+
 ```jsx
 <Button 
     title=”Change Text” 
@@ -15,7 +17,7 @@
     {
         courseGoals.map((goal) => 
             <View style={styles.listItem}>
-                <Text key={goal}>{goal}</Text> 
+                <Text key={goal}>{goal}</Text>
             </View>)
     }
 </ScrollView>
