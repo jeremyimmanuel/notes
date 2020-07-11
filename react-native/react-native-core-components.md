@@ -39,3 +39,25 @@ Similar to ScrollView but builds the list dynamically
     )
 }/>
 ```
+
+## Alert Dialog
+
+We can show alert dialog via a function.
+For further information look [here](https://reactnative.dev/docs/alert).
+
+```javascript
+Alert.alert(
+      "Alert Title",
+      "My Alert Msg",
+      [
+        {
+          text: "Cancel",
+          onPress: () => console.log("Cancel Pressed"),
+          style: "cancel"
+        },
+        { text: "OK", onPress: () => console.log("OK Pressed") }
+      ],
+      { cancelable: false }
+    );
+
+```
