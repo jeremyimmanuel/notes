@@ -14,5 +14,23 @@ const styles = StyleSheet.create({
         justifyContent: 'center', // main - axis alignment
         alignItems: 'center', // cross-axis alignment
         width: '60%', // when doing percentage, it means a percentage of its parent's length
-    }
+
+        // rounded corners
+        borderRadius: 10,
+    }, 
+    shadows: {
+        // for iOS
+        shadowColor: 'black',
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.26,
+        shadowRadius: 6,
+        
+        // for android
+        elevation: 5,
+    },
+
 })
+```
