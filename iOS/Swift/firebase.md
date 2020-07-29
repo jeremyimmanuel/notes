@@ -48,6 +48,7 @@ We still need to call the object's `.getDocument` function to get the data in a 
 ```swift
 docRef.getDocument { document, error in
 if let document = document, document.exists {
+    guard let error = error else { return }
     document.data() // the dictionary
 }
 ```

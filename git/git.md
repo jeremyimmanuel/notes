@@ -24,3 +24,8 @@ git push origin branchname
 git checkout --track origin/branchname
 ```
 
+## Check difference between branches
+
+```bash
+git diff [branch1] [branch2]
+```

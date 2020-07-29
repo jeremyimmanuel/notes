@@ -9,3 +9,9 @@ There are two options; npm or yarn
 npm install package-name
 yarn add package-name
 ```
+
+## Removing packages
+
+```bash
+yarn remove package-name
+```
