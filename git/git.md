@@ -29,3 +29,12 @@ git checkout --track origin/branchname
 ```bash
 git diff [branch1] [branch2]
 ```
+
+## Deleting branches
+
+```bash
+git branch -d [branch] # local branch
+git push origin --delete [branch] # remote branch
+```
+
+
